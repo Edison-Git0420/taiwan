@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3eb">
+  <meta name="description" content="從飲食、地景、節慶、歷史與科技，認識台灣日常而多元的文化風景。">
+  <title>認識台灣 | 從日常開始探索</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/registry.js" defer></script>
+  <script src="assets/js/renderer.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至主要內容</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="認識台灣首頁">
+      <span class="brand-mark" aria-hidden="true">島</span>
+      <span class="brand-name">認識台灣<span>DISCOVER TAIWAN</span></span>
+    </a>
+    <nav class="site-nav" aria-label="主要導覽">
+      <a class="nav-link is-current" href="index.html" aria-current="page">主題探索</a>
+      <a class="nav-link" href="#about">關於本站</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> AN ISLAND OF MANY STORIES</p>
+        <h1 id="intro-title">認識台灣，<br><span>從日常開始。</span></h1>
+        <p class="intro-description">一座島嶼，藏著山海的尺度，也藏著每一餐、每一個節日與每一段生活的故事。</p>
+        <a class="text-link intro-link" href="#topics">開始探索 <span aria-hidden="true">↓</span></a>
+        <div class="intro-note"><span class="note-rule"></span><span>島嶼筆記 <b>・</b> CULTURE, LAND & PEOPLE</span></div>
+      </div>
+      <figure class="intro-visual">
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="熱鬧餐桌上的台灣風味料理" fetchpriority="high">
+        <figcaption><span>01 / 夜市飲食文化</span><span>從一份小吃認識一座島</span></figcaption>
+        <span class="visual-stamp" aria-hidden="true">台灣<br>TAIWAN</span>
+      </figure>
+    </section>
+
+    <section class="topics-section" id="topics" aria-labelledby="topics-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FIELD NOTES <span class="heading-index">/ 01</span></p>
+          <h2 id="topics-title">探索主題</h2>
+        </div>
+        <p class="section-aside">每個主題，都是走進台灣的一扇門。</p>
+      </div>
+
+      <div class="topic-tools">
+        <div class="category-list" id="category-list" role="group" aria-label="依類別篩選主題"></div>
+        <label class="search-field">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <span class="visually-hidden">搜尋主題</span>
+          <input id="topic-search" type="search" placeholder="搜尋主題" autocomplete="off">
+          <kbd aria-hidden="true">⌕</kbd>
+        </label>
+      </div>
+
+      <p class="results-status" id="results-status" aria-live="polite"></p>
+      <div class="topic-grid" id="topic-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <span class="empty-mark" aria-hidden="true">?</span>
+        <p>沒有找到符合的主題</p>
+        <button class="text-link" id="clear-filters" type="button">清除篩選 <span aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+
+    <section class="about-strip" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">A LIVING ARCHIVE</p>
+      <div class="about-content">
+        <h2 id="about-title">把台灣的故事，<br>一篇一篇收藏起來。</h2>
+        <p>這是一座持續擴充的數位知識庫，從土地、人群與日常出發，記錄台灣豐富而相連的文化面貌。</p>
+        <span class="about-seal" aria-hidden="true">島嶼<br>日常</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="index.html">認識台灣 <span>DISCOVER TAIWAN</span></a>
+    <p>為島嶼日常，留下文化索引。</p>
+    <span class="footer-year">TAIWAN · <span id="current-year">2026</span></span>
+  </footer>
+</body>
+</html>
